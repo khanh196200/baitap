@@ -1,0 +1,7 @@
+ds=input('Danh sach: ')
+ds_dao_nguoc =''
+for letter in ds :
+    ds_dao_nguoc=letter + ds_dao_nguoc
+prin('')
+print('Input:%s',ds)
+print('Output:%s',ds_dao_nguoc)
